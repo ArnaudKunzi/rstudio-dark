@@ -139,7 +139,7 @@ export class DesktopBrowserWindow extends EventEmitter {
 
       // Match BACKGROUNDGRADIENT in themeStyles.css to reduce flashbulb effect while loading
       // https://github.com/rstudio/rstudio/issues/13768
-      const backgroundColor = '#e1e2e5';
+      const backgroundColor = '#2b2b2b';
 
       this.window = new BrowserWindow({
         backgroundColor: backgroundColor,
